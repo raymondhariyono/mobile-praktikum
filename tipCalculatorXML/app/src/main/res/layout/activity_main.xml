@@ -55,6 +55,8 @@
                 android:contentDescription="Select Tip Percentage"
                 android:importantForAccessibility="yes"
                 android:inputType="none"
+                android:padding="12dp"
+                android:textSize="16sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

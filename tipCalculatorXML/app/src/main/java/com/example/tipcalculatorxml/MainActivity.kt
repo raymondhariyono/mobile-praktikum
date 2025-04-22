@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, tipOptions)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, tipOptions)
         binding.tipDropdown.setAdapter(adapter)
 
         val updateTip = {
